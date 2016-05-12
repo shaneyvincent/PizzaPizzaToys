@@ -1,0 +1,44 @@
+App.progressCountTotal = 5;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///Macintosh HD/Users/shanevincent/Desktop/butterfly thumb.png');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'butterfly thumb.png';
+if (!Files.exists('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/butterfly thumb_png.jpg') || confirm('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/butterfly thumb_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/butterfly thumb_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/butterfly thumb_png.jpg') || confirm('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/butterfly thumb_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/butterfly thumb_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/shanevincent/Desktop/frame for thumbnils.JPG');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'frame for thumbnils.JPG';
+if (!Files.exists('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/frame for thumbnils_JPG.jpg') || confirm('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/frame for thumbnils_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/frame for thumbnils_JPG.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/frame for thumbnils_JPG.jpg') || confirm('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/frame for thumbnils_JPG.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/frame for thumbnils_JPG.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/shanevincent/Desktop/frame for thumbnils.png');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'frame for thumbnils.png';
+if (!Files.exists('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/frame for thumbnils_png.jpg') || confirm('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/frame for thumbnils_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/frame for thumbnils_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/frame for thumbnils_png.jpg') || confirm('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/frame for thumbnils_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/frame for thumbnils_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/shanevincent/Desktop/frame for thumbnils.psd');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'frame for thumbnils.psd';
+if (!Files.exists('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/frame for thumbnils_psd.jpg') || confirm('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/frame for thumbnils_psd.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/frame for thumbnils_psd.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/frame for thumbnils_psd.jpg') || confirm('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/frame for thumbnils_psd.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/frame for thumbnils_psd.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/shanevincent/Desktop/FRAME FORGALLERY.png');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'FRAME FORGALLERY.png';
+if (!Files.exists('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/FRAME FORGALLERY_png.jpg') || confirm('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/FRAME FORGALLERY_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/shanevincent/Desktop/gallery/images/FRAME FORGALLERY_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/FRAME FORGALLERY_png.jpg') || confirm('file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/FRAME FORGALLERY_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/shanevincent/Desktop/gallery/thumbnails/FRAME FORGALLERY_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';
